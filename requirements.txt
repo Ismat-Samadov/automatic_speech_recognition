@@ -1,0 +1,33 @@
+# ASR Training Requirements
+# Python 3.14 (64-bit) required
+
+# Core ML
+torch>=2.9.0
+torchaudio>=2.9.0
+transformers>=4.57.0
+datasets>=4.4.0
+accelerate>=1.12.0
+evaluate>=0.4.0
+
+# Audio processing
+librosa>=0.11.0
+soundfile>=0.13.0
+jiwer>=4.0.0
+
+# Training utilities
+tensorboard>=2.20.0
+safetensors>=0.7.0
+
+# Jupyter
+ipykernel>=7.1.0
+
+# ===========================================
+# CUDA Installation (for GPU training)
+# ===========================================
+# If you have NVIDIA GPU, reinstall PyTorch with CUDA:
+#
+# pip uninstall torch torchaudio
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# Or for CUDA 12.4:
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
