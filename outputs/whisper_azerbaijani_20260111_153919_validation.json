@@ -1,0 +1,30 @@
+{
+  "total_samples": 500,
+  "columns": [
+    "audio",
+    "text",
+    "duration",
+    "audio_file"
+  ],
+  "missing_values": {
+    "audio": 0,
+    "text": 0
+  },
+  "duration_stats": {
+    "mean": 5.753760000000001,
+    "median": 5.08,
+    "std": 2.946688355153968,
+    "min": 0.71,
+    "max": 16.57,
+    "total_hours": 0.7991333333333334
+  },
+  "text_stats": {
+    "mean_length": 84.996,
+    "median_length": 77.5,
+    "min_length": "11",
+    "max_length": "237"
+  },
+  "issues": [],
+  "audio_column": "audio",
+  "text_column": "text"
+}

@@ -1,0 +1,6 @@
+{
+  "device": "mps",
+  "device_name": "Apple Silicon (MPS)",
+  "memory_gb": null,
+  "fp16_available": false
+}

@@ -1,0 +1,8 @@
+{
+  "model_name": "openai/whisper-tiny",
+  "num_parameters": 37760640,
+  "language": "azerbaijani",
+  "task": "transcribe",
+  "vocab_size": 51865,
+  "d_model": 384
+}
